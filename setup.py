@@ -7,12 +7,12 @@ long_description = open('README.txt').read()
 
 setup(
     name='django-taggit-autosuggest',
-    version='0.3.8',
+    version='1.0.1',
     description='Autosuggestions for django-taggit',
     long_description=long_description,
-    author='Fabian Topfstedt',
-    author_email='topfstedt@schneevonmorgen.com',
-    url='https://bitbucket.org/fabian/django-taggit-autosuggest',
+    author='Vizvasrj',
+    author_email='vizvasrj@gmail.com',
+    url='https://bitbucket.org/vizvasrj/django-taggit-autosuggest',
     packages=find_packages(),
     include_package_data=True,
     classifiers=[

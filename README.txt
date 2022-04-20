@@ -10,6 +10,7 @@ However, I'm happy to accept pull requests!
     * Jeremy Epstein, https://github.com/Jaza/django-taggit-autocomplete
     * Flavio Curella, https://github.com/fcurella/django-taggit-autocomplete
     * Drew Wilson, http://code.drewwilson.com/entry/autosuggest-jquery-plugin
+    * Fabian Topfstedt, https://bitbucket.org/fabian/django-taggit-autosuggest
 
 *** Installation ***
    * Add "taggit_autosuggest" to your INSTALLED_APPS in your project settings
