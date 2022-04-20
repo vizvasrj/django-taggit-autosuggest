@@ -20,17 +20,17 @@ However, I'm happy to accept pull requests!
 
 
 *** Settings ***
-   TAGGIT_AUTOSUGGEST_STATIC_BASE_URL:
-      Instead of collecting and serving the static files directly, you can
-      also set this variable to your static base URL somewhere else.
-   TAGGIT_AUTOSUGGEST_MAX_SUGGESTIONS (Defaults to 20):
-      The amount of suggestions is limited, you can raise or lower the limit
-      of default 20 using this setting.
-   TAGGIT_AUTOSUGGEST_CSS_FILENAME (Defaults to 'autoSuggest.css'):
-      Set the CSS file which best fits your site elements.
-         The CSS file have to be in 'jquery-autosuggest/css/'.
-   TAGGIT_AUTOSUGGEST_MODELS (Defaults to tuple('taggit','Tag'))
-      The Tag model used, if you happen to use Taggit custom tagging.
+   * TAGGIT_AUTOSUGGEST_STATIC_BASE_URL:
+      * Instead of collecting and serving the static files directly, you can
+      * also set this variable to your static base URL somewhere else.
+   * TAGGIT_AUTOSUGGEST_MAX_SUGGESTIONS (Defaults to 20):
+      * The amount of suggestions is limited, you can raise or lower the limit
+      * of default 20 using this setting.
+   * TAGGIT_AUTOSUGGEST_CSS_FILENAME (Defaults to 'autoSuggest.css'):
+      * Set the CSS file which best fits your site elements.
+      * The CSS file have to be in 'jquery-autosuggest/css/'.
+   * TAGGIT_AUTOSUGGEST_MODELS (Defaults to tuple('taggit','Tag'))
+      * The Tag model used, if you happen to use Taggit custom tagging.
 
 *** Usage ***
 To enable autosuggesting Tags, just let the tagged model use TaggableManager:
